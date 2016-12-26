@@ -1,0 +1,9 @@
+{{yield}}
+
+<p>{{title}}</p>
+
+<ul>
+  {{#each blocks as |block|}}
+    <li><a href="{{block.url}}" target="_blank">{{block.name}}</a></li>
+  {{/each}}
+</ul>
