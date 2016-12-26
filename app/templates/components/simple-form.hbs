@@ -1,0 +1,11 @@
+{{yield}}
+
+<form {{action 'search' on="submit"}}>
+  <label>Search:
+    {{input value=query type="text"}}
+  </label>
+  <button type="submit">Go!</button>
+  <button type="button" {{action 'example'}}>Example</button>
+</form>
+
+<p>{{message}}</p>
